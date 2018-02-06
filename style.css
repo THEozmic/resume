@@ -600,15 +600,15 @@ body {
 }
 
 .icon--linkedin {
-  background-image: url('/img/linkedin_icon.png');
+  background-image: url('img/linkedin_icon.png');
 }
 
 .icon--github {
-  background-image: url('/img/github_icon.png');
+  background-image: url('img/github_icon.png');
 }
 
 .icon--web {
-  background-image: url('/img/web_icon.png');
+  background-image: url('img/web_icon.png');
 }
 
 
@@ -648,6 +648,5 @@ body {
   body, html {
     width: 100%;
   }
-  
 
 }
