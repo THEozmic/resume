@@ -3,6 +3,14 @@
   box-sizing: border-box
 }
 
+.setting--primary-background {
+  background-color: #4a90e2;
+}
+
+.setting--primary-text {
+  color: 145298;
+}
+
 html {
   font-size: 7.5px;
   line-height: 1.25;
@@ -352,7 +360,7 @@ body {
   font-size: 1.6rem;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
-  color: #4a90e2
+  font-weight: 600;
 }
 
 .experience__info {
