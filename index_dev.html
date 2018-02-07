@@ -82,7 +82,7 @@ body {
   position: relative;
   display: block;
   max-width: 120rem;
-  padding: 0rem 9rem;
+  padding: 0rem 3rem;
 }
 
 .top-block {
@@ -191,9 +191,7 @@ body {
 }
 
 .details__line {
-  /* display: -webkit-box; */
   display: -ms-flexbox;
-  /* display: flex; */
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
@@ -237,16 +235,14 @@ body {
   display: inline-block;
   vertical-align: bottom;
   margin-right: 5px;
-  /* background: #212121; */
   border-radius: 3px;
-  /* padding: 2px; */
   text-align: center;
 }
 
 .section {
-  border-top: 1px solid #e5e9f2;
-  padding-top: 3rem;
+  padding: 5rem 3rem;
   margin-bottom: 5rem;
+  border-top: 1px solid #e5e9f2;
 }
 
 .section__label {
@@ -483,7 +479,7 @@ body {
 }
 
 .skills__content {
-  width: 70%;
+  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -526,7 +522,7 @@ body {
 }
 
 .skills__name {
-  min-width: 25rem;
+  min-width: 20rem;
   font-size: 1.8rem;
   color: #000
 }
@@ -550,16 +546,22 @@ body {
 }
 
 .skills__circle {
-  width: 1.2rem;
+  width: 2.2rem;
   height: 1.2rem;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 1.2rem;
-  flex: 0 0 1.2rem;
-  border-radius: 1px;
 }
 
 .skills__circle.is-empty {
   background-color: #e4e4e4
+}
+
+.skills__circle:first-child {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.skills__circle:last-child {
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
 .hobbies {
